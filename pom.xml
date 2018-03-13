@@ -23,14 +23,14 @@
     </dependency>
     
 	<dependency>
-      <groupId>hamcrest</groupId>
-      <artifactId>hamcrest</artifactId>
+      <groupId>hamcrest1</groupId>
+      <artifactId>hamcrest1</artifactId>
       <version>1.3</version>
 	</dependency>
 	
 	<dependency>
-      <groupId>junit4</groupId>
-      <artifactId>junit4</artifactId>
+      <groupId>junit44</groupId>
+      <artifactId>junit44</artifactId>
       <version>4.12</version>
 	</dependency>
 	
