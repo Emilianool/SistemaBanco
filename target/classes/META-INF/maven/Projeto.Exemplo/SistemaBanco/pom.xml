@@ -21,5 +21,18 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+	<dependency>
+      <groupId>hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>1.3</version>
+	</dependency>
+	
+	<dependency>
+      <groupId>junit4</groupId>
+      <artifactId>junit4</artifactId>
+      <version>4.12</version>
+	</dependency>
+	
   </dependencies>
 </project>
