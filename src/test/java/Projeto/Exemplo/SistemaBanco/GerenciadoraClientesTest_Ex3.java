@@ -22,7 +22,7 @@ public class GerenciadoraClientesTest_Ex3 {
 		Cliente cliente02 = new Cliente(2, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 1, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		List<Cliente> clientesDoBanco = new ArrayList<>();
+		ArrayList<Cliente> clientesDoBanco = new ArrayList();
 		clientesDoBanco.add(cliente01);
 		clientesDoBanco.add(cliente02);
 		
@@ -46,7 +46,7 @@ public class GerenciadoraClientesTest_Ex3 {
 		Cliente cliente02 = new Cliente(2, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 1, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		List<Cliente> clientesDoBanco = new ArrayList<>();
+		ArrayList<Cliente> clientesDoBanco = new ArrayList();
 		clientesDoBanco.add(cliente01);
 		clientesDoBanco.add(cliente02);
 		

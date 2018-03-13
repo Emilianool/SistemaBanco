@@ -27,7 +27,7 @@ public class GerenciadoraContasTest_Ex6 {
 		ContaCorrente conta02 = new ContaCorrente(idConta02, 0, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		List<ContaCorrente> contasDoBanco = new ArrayList<>();
+		ArrayList<ContaCorrente> contasDoBanco = new ArrayList();
 		contasDoBanco.add(conta01);
 		contasDoBanco.add(conta02);
 		
@@ -54,7 +54,7 @@ public class GerenciadoraContasTest_Ex6 {
 		ContaCorrente conta02 = new ContaCorrente(idConta02, 0, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		List<ContaCorrente> contasDoBanco = new ArrayList<>();
+		ArrayList<ContaCorrente> contasDoBanco = new ArrayList();
 		contasDoBanco.add(conta01);
 		contasDoBanco.add(conta02);
 		
