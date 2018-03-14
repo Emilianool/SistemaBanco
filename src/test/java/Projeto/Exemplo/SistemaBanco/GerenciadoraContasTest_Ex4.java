@@ -4,10 +4,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 public class GerenciadoraContasTest_Ex4 {
@@ -25,7 +21,7 @@ public class GerenciadoraContasTest_Ex4 {
 		ContaCorrente conta02 = new ContaCorrente(2, 0, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		ArrayList<ContaCorrente> contasDoBanco = new ArrayList();
+		ArrayList<ContaCorrente> contasDoBanco = new ArrayList<ContaCorrente>();
 		contasDoBanco.add(conta01);
 		contasDoBanco.add(conta02);
 		

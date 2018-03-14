@@ -4,7 +4,6 @@ import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import org.junit.Test;
 
@@ -18,7 +17,7 @@ public class GerenciadoraClientesTest_Ex1 {
 		Cliente cliente02 = new Cliente(2, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 2, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
-		ArrayList<Cliente> clientesDoBanco = new ArrayList();
+		ArrayList<Cliente> clientesDoBanco = new ArrayList<Cliente>();
 		clientesDoBanco.add(cliente01);
 		clientesDoBanco.add(cliente02);
 		
